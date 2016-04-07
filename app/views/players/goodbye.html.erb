@@ -6,13 +6,11 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>askdfj;alsdfjklas
+<body>
 
 <% @player.each do |player| %>
+<br />
 <%= player.name %>
 <%= player.average %>
+<br />
 <% end %>
-<!-- <%= @users.each do |u| %> -->
-
-</body>
-</html>
