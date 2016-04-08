@@ -12,7 +12,7 @@ namespace :hello do
 
   desc "Import CSV Data from COLI Census city data"
   task :jesse => :environment do
-    Player.delete_all
+  #  Player.delete_all
     csv_file_path = 'baseball.csv'
 
     CSV.foreach(csv_file_path) do |row|
