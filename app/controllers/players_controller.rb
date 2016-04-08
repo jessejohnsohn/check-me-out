@@ -10,4 +10,9 @@ class PlayersController < ActionController::Base
   def goodbye
     @player = Player.all
   end
+
+  def find_it
+    @post = Client.where(:name => params[:find_it])
+  end
+
 end
