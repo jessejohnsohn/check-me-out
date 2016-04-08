@@ -6,4 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-players = Player.create([{:name => 'Bob', :average => '.345'}])
+#players = Player.create([{:name => 'Bob', :average => '.345'}])
