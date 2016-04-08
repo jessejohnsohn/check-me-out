@@ -7,11 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<p>
+
+
+<p>Player Average</p>
 <% @player.each do |player| %>
 <br />
 <%= player.name %>
 <%= player.average %>
+<form action="">
+<input type="checkbox">
 <br />
 <% end %>
+</form>
 </p>
